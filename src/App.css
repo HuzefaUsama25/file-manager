@@ -1,7 +1,33 @@
 .App {
   text-align: center;
+  margin: 10%;
 }
 
+
 .Folder {
-  color: white;
+  display:block; 
+  text-align: left;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 10px;
+  border: green;
+  border-radius: 10px;
+  border-style: solid;
+  width: 25%;
+  height: 20px;
+  cursor:pointer;
+}
+
+.File{
+  display:block; 
+  margin: 5px;
+  text-align: left;
+  padding: 1px;
+  padding-left: 10px;
+  border: cyan;
+  margin-left: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  width: 25%;
+  height: 20px;
 }
