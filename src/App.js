@@ -1,16 +1,12 @@
 import './App.css';
-import './components/Counter'
-import Counter from './components/Counter';
+import Folder from './components/Folder';
 
 function App() {
   return (
     <div className="App">
 
 
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
+      <Folder />
     </div>
   );
 }
