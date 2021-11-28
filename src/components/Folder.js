@@ -9,10 +9,7 @@ export default function Folder(props) {
         console.log(isOpen)
     }
 
-
-
     return (
-        
         <>
         <div className="Folder" onClick={onOpen}>
             {props.name}

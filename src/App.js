@@ -11,6 +11,9 @@ function App() {
         <File name="notes.txt" />
         <File name="picture1.png" />
         <File name="audio123.mp4" />
+        <Folder name="SubFolder">
+          <File name="SubFile" />
+        </Folder>
       </Folder>
       <Folder name="Desktop">
         <File name="Flutter Course.mp4" />
